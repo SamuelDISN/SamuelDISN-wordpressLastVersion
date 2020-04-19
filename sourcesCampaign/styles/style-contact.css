@@ -1,0 +1,14 @@
+.isContactMain .isFormContactUs h3{
+    margin-left:11%;
+    margin-top:5%;
+}
+
+.isContactMain .isFormContactUs .nf-form-fields-required{
+    margin-left:11%;
+}
+
+.isContactMain .nf-form-fields-required{
+    margin-top:20px;
+    margin-bottom:5%;
+    color:grey;
+}

@@ -1,0 +1,104 @@
+
+.isContainerArticleIndex{
+    height: 370px;
+    width:1280px;
+    margin-top:50px;
+    border-bottom:1px solid black;
+
+}
+
+.isContainerArticleIndex h2{
+
+    margin-top:30px;
+    margin-left:460px;
+    margin-bottom:45px;
+
+}
+
+.isContainerArticleIndex .isContainerImg {
+    margin-top:-50px;
+    margin-left:80px;
+    
+}
+
+.isContainerArticleIndex h3 {
+    height:100px;
+    width:690px;
+    padding:10px 10px 10px 0px;
+    position:relative;
+    top:-190px;
+    left:460px;
+    word-wrap: break-word;
+    text-transform:uppercase;
+}
+
+.isContainerArticleIndex .isSloganDescription{
+    height:100px;
+    width:690px;
+    word-wrap: break-word;
+    position:relative;
+    top:-220px;
+    left:460px;
+    font-style: italic;
+}
+
+.isContainerArticleIndex .isDateCitation{
+    position:relative;
+    top:-240px;
+    left:460px;
+    font-style:italic;
+    font-size:0.9em;
+}
+
+@keyframes slider {
+    0%{
+        left:0;
+
+    }
+
+    20%{
+        left:0;
+    }
+    25%{
+        left:-100%;
+    }
+
+    45%{
+        left:-100%;
+    }
+
+    50%{
+        left:-200%;
+    }
+
+    70%{
+        left:-200%;
+    }
+
+    75%{
+        left:-300%;
+    }
+    95%{
+        left:-300%;
+    }
+    100%{
+        left:-400%;
+    }
+}
+
+#slider{
+    overflow:hidden;
+}
+
+#slider figure img {
+    width:20%;
+    float:left;
+}
+
+#slider figure {
+    position:relative;
+    width:500%;
+    margin:0;
+    left:0;
+    animation: 20s slider infinite;
+}

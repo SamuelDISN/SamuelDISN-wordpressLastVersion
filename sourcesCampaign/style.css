@@ -1,0 +1,34 @@
+/*
+Theme Name: Campaign
+Theme URI: https://capitainewp.io
+Author: DHERAI Samuel
+Description: Mon premier thème développer sous Wordpress pour élaborer une campagne electorale!
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+
+/* Reset  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+html{
+    width:1280px;
+    height:auto; 
+}
+
+a{
+    color:inherit;
+}
+
+a:not([target="_blank"]){
+    text-decoration: none;
+}
+
+ul,
+li{
+    list-style-type: none;
+}

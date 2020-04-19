@@ -1,0 +1,63 @@
+.isContainerOurTeam{
+    height:1050px;
+    width:1280px;
+    background-color:white;
+}
+
+.isOurTeam .isContainerPersonna1,
+.isOurTeam .isContainerPersonna2,
+.isOurTeam .isContainerPersonna3{
+    width: 390px;
+    height:350px;
+    display:inline-block;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    margin: 1rem;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.isOurTeam .isContainerPersonna1:hover,
+.isOurTeam .isContainerPersonna2:hover,
+.isOurTeam .isContainerPersonna3:hover{
+    background: #fff;
+    border-radius: 10px;
+    height: 350px;
+    width:390px;
+    margin: 1rem;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.isOurTeam .isContainerPersonna1 img{
+    margin-top:-30px;
+    margin-left:70px;
+}
+.isOurTeam .isContainerPersonna2,
+.isOurTeam .isContainerPersonna3{
+    position:relative;
+    top:-7px;
+
+}
+.isOurTeam h3{
+    padding-top:20px;
+}
+
+.isOurTeam .isDescriptionPersonna1,
+.isOurTeam .isDescriptionPersonna2,
+.isOurTeam .isDescriptionPersonna3{
+
+    height:100px;
+    width:400px;
+    color:black;
+    font-size:12px;
+    padding:20px;
+    text-align: justify;
+}
+
+
+
+
+

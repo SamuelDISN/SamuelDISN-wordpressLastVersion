@@ -1,0 +1,100 @@
+.isQsnMain{
+    height:1300px;
+    background-color:white;
+}
+
+.isQsnMain h2,
+.isQsnMain img {
+    position:relative;
+    top:50px;
+    left:80px;
+}
+
+.isQsnMain img:hover{
+    position:relative;
+    top:50px;
+    left:80px;
+    transform:scale(1.2);
+}
+
+.isQsnMain h2{
+    margin-bottom:70px;
+    text-transform: uppercase;
+    color:black;
+}
+
+.isQsnMain .isCandidateProgram{
+    position:relative;
+    top:-280px;
+    left:40%;
+    width:700px;
+    height:auto;
+}
+
+.isQsnMain .isCandidateProgram h1 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size:28px;
+}
+
+.isQsnMain .isCandidateProgram .isDetailsProgramQsn{
+
+    text-align: justify;
+}
+
+.isQsnMain .isContainerJoinCampaign{
+    width:1280px;
+    margin-top:-180px;
+}
+.isQsnMain .isContainerJoinCampaign .isContainerBannerJoinCampaign{
+    height:65px;
+    font-size:22px;
+    font-weight:700;
+
+}
+
+.isQsnMain .isContainerJoinCampaign .isContainerBannerJoinCampaign .isLabelLineJoinUp{
+    border-bottom:2px solid #303841;
+    margin-bottom:10px;
+}
+
+.isQsnMain .isContainerJoinCampaign .isContainerBannerJoinCampaign .isBannerJoinCampaign {
+    width:1280px;
+    height:60px;
+    background-color:#303841;
+}
+
+.isQsnMain .isContainerJoinCampaign .isContainerBannerJoinCampaign .isLabelLineJoinDown{
+    border-top:2px solid #303841;
+    margin-top:10px;
+}
+
+
+.isQsnMain .isContainerJoinCampaign .isContainerBannerJoinCampaign h2{
+    text-transform: uppercase;
+    position:relative;
+    top:-60px;
+    left:450px;
+    color:white;
+}
+
+.isQsnMain .isContainerJoinCampaign .isContainerBannerJoinCampaign h2:hover{
+    text-transform: uppercase;
+    position:relative;
+    top:-60px;
+    left:450px;
+    color:green;
+}
+.isQsnMain .nf-form-fields-required,
+.isQsnMain h3{
+    margin-left:11%;
+    margin-top:5%;
+
+}
+
+.isQsnMain .nf-form-fields-required{
+    color:grey;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:0.8em;
+}

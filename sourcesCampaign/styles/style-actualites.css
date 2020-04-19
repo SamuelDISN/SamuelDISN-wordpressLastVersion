@@ -1,0 +1,231 @@
+.isContainerArticleActualities{
+    height: 700px;
+    width:1280px;
+    margin-top:40px;
+    border-bottom:1px solid black;
+} 
+
+.isContainerArticleActualities h1{
+    margin-left:80px;
+    margin-bottom:30px;
+}
+
+
+.isContainerArticleActualities .isContainerNewsImg{
+    margin-left:80px;
+}
+
+.isContainerArticleActualities h3{
+    width:700px;
+    position:relative;
+    top:-315px;
+    left:460px;
+}
+
+.isContainerArticleActualities .isNewsDescription{
+    height:100px;
+    width:700px;
+    word-wrap: break-word;
+    position:relative;
+    top:-280px;
+    left:460px;
+    text-align: justify;
+}
+
+
+.isContainerArticleActualities button,
+.isContainerArticleActualities span{
+    position:relative;
+    top:-150px;
+    left:460px;
+    margin-top:20px;
+}
+
+.isContainerArticleActualities button{
+    width:120px;
+    height:40px;
+    border-radius: 10px;
+    border:none;
+    background-color: #303841;
+    color:white;
+}
+
+
+
+.isContainerArticleActualities span{
+    margin-top:15px;
+    margin-left:380px;
+    font-size:0.8em;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.isContainerArticleActualities h2{
+    margin-top:-80px;
+    margin-left:80px;
+}
+
+
+.isContainerCards{
+    width:1280px;
+    height:200px;
+    position:relative;
+    top:-30px;
+    text-align: center;
+}
+.isContainerCards .isCardEnvironnement,
+.isContainerCards .isCardSante,
+.isContainerCards .isCardEconomie{
+    display:inline-block;
+    background: #fff;
+    border-radius: 2px;
+    height: 150px;
+    width: 200px;
+    margin: 1rem;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    margin-top:20px;
+    margin-right:100px;
+    margin-left:100px;
+    padding-top:65px;
+    font-size:18px;
+    text-transform: uppercase;
+}
+
+.isContainerCards .isCardEnvironnement:hover,
+.isContainerCards .isCardSante:hover,
+.isContainerCards .isCardEconomie:hover
+{
+    display:inline-block;
+    background: #fff;
+    border-radius: 2px;
+    height: 150px;
+    width: 200px;
+    margin: 1rem;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-top:20px;
+    margin-right:100px;
+    margin-left:100px;
+    padding-top:65px;
+    font-size:20px;
+    text-transform: uppercase;
+}
+
+.isContainerCards .isCardEnvironnement .cat-item-46,
+.isContainerCards .isCardEnvironnement .cat-item-45,
+.isContainerCards .isCardSante .cat-item-46,
+.isContainerCards .isCardSante .cat-item-47,
+.isContainerCards .isCardEconomie .cat-item-47,
+.isContainerCards .isCardEconomie .cat-item-45{
+    display:none;
+}
+
+
+/* Category-economie */
+
+.isCatEco h1,
+.isCatEnv h1,
+.isCatSante h1{
+    margin-top:30px;
+    margin-left:80px;
+}
+
+.isCatEco .isCardCatEco_1,
+.isCatEnv .isCardCatEnv_1,
+.isCatSante .isCardCatSante_1{
+    display:inline-block;
+    background: #fff;
+    border-radius: 2px;
+    height: 150px;
+    width: 200px;
+    margin: 1rem;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    margin-top:20px;
+    margin-right:20px;
+    margin-left:80px;
+    padding-top:65px;
+    font-size:18px;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.isCatEco .isCardCatEco_1:hover,
+.isCatEnv .isCardCatEnv_1:hover,
+.isCatSante .isCardCatSante_1:hover{
+    display:inline-block;
+    background: #fff;
+    border-radius: 2px;
+    height: 150px;
+    width: 200px;
+    margin: 1rem;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-top:20px;
+    margin-right:20px;
+    margin-left:80px;
+    padding-top:65px;
+    font-size:19px;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+/* Taxonomy Environnement */
+.isContainerArticleEnvTchernobyl h1,
+.isContainerArticleSanteCovid h1,
+.isContainerArticleEcoGiletJaune h1{
+    text-transform:uppercase;
+    text-align:center;
+    padding-top:30px;
+    padding-right:10px;
+    padding-bottom:30px;
+    padding-left:10px;
+}
+
+.isContainerArticleEnvTchernobyl p,
+.isContainerArticleSanteCovid p,
+.isContainerArticleEcoGiletJaune p{
+    padding:10px;
+    text-align:justify;
+    line-height:2em;
+}
+
+.isContainerArticleEnvTchernobyl button,
+.isContainerArticleSanteCovid button,
+.isContainerArticleEcoGiletJaune button{
+    background-color:white;
+    border:1px solid black;
+    padding-top:5px;
+    padding-right:10px;
+    padding-bottom:5px;
+    padding-left:10px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:45%;
+    transition: 0.2s;
+}
+
+.isContainerArticleEnvTchernobyl button:hover,
+.isContainerArticleSanteCovid button:hover,
+.isContainerArticleEcoGiletJaune button:hover{
+    transform: scale(1.1);
+    background-color:black;
+    color:white;
+    border:1px solid black;
+    padding-top:5px;
+    padding-right:10px;
+    padding-bottom:5px;
+    padding-left:10px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:45%;
+}
+
+.isContainerArticleEnvTchernobyl span,
+.isContainerArticleSanteCovid span,
+.isContainerArticleEcoGiletJaune span{
+    margin-left:28%;
+}

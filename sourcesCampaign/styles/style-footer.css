@@ -1,0 +1,67 @@
+footer{
+    padding-top:20px;
+    height:300px;
+    background-color:#EEEE;
+}
+
+footer nav ul div .my-footer-menu{
+    margin-top: 10px;
+    display: inline-flex;
+}
+
+footer nav ul div .my-footer-menu li{
+
+    padding: 20px 35px 0 35px;
+    font-size:13px;
+}
+
+footer nav ul div .my-footer-menu li a:hover{
+    color: green;
+    border-bottom: solid 1px black;
+}
+
+footer .isNewsletter{
+    background-color: white;
+    text-align: center;
+    width:340px;
+    height:130px;
+    position:relative;
+    top:-140px;
+    left:900px;
+
+}
+
+footer .isContainerLogoFooter .isLogoFooter{
+    padding:10px;
+    position: relative;
+    top:-140px;
+    left:-290px;
+}
+
+footer .isNewsletter h3{
+    font-size: 18px;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+.isNewsletter input{
+    height: 35px;
+    width: 190px;
+    font-size: 0.7em;
+}
+.isNewsletter button{
+    height: 34px;
+    width: 110px;
+    border:none;
+    margin-left:-5px;
+    background-color: #3a4750;
+    font-size: 10px;
+    color:white;
+}
+
+footer .isContainerLogoFooter {
+    display: flex;
+    justify-content: flex-end;
+
+
+}
